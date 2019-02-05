@@ -1,0 +1,45 @@
+h2 {
+    color: peru;
+}
+div{
+    width: 100px;
+    min-height: 100px;
+    border: 1px solid red;
+    background: green;
+    padding: 20px
+}
+
+/* div div{
+    background: yellow
+} */
+
+/* plus oznacza prawego brata, nie ma lewego brata!!! tylda bierze wszystkich braci prawostronnych*/
+/* div > div + div{
+    background: lightgreen
+} */
+
+/* ostatni element danego typu */
+/* body > div:last-of-type{
+    background: blue;
+}  */
+
+/* chcemy pierwszy div srebrny , div spacja nazwa dziecka*/
+div .jeden{
+    background: silver;
+}
+
+/* zmodyfikowac tylko ostatni kwadrat na srebrny, ale pierwszy nie */
+.jeden{
+    background: gold;
+}
+
+/* używając klas, chcemy zmienić klasę dwa i trzy na jeden kolor, musimy mieć dziecko diva */
+div .dwa, 
+div .trzy{
+    background: purple
+}
+
+/* kolor dla identyfikatora */
+#identyfikator{
+    background: floralwhite
+}
